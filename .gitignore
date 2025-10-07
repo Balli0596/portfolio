@@ -1,0 +1,47 @@
+# --------------------
+# Python files
+# --------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --------------------
+# Virtual environment
+# --------------------
+env/
+.venv/
+venv/
+
+# --------------------
+# Django files
+# --------------------
+db.sqlite3
+*/migrations/*.py
+!*/migrations/__init__.py
+
+# --------------------
+# Logs and temporary files
+# --------------------
+*.log
+*.pot
+
+# --------------------
+# IDE/editor files
+# --------------------
+.vscode/
+.idea/
+
+# --------------------
+# OS/system files
+# --------------------
+.DS_Store
+Thumbs.db
+
+# --------------------
+# Data files (optional)
+# --------------------
+data/
+*.csv
+*.xlsx
+*.json
