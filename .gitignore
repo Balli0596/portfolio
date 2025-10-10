@@ -16,9 +16,7 @@ venv/
 # --------------------
 # Django files
 # --------------------
-db.sqlite3
-*/migrations/*.py
-!*/migrations/__init__.py
+
 
 # --------------------
 # Logs and temporary files
