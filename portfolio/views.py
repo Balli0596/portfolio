@@ -4,8 +4,8 @@ from base.models import Contact
 from django.contrib import messages 
 
 
-# def home(request):
-#     return render(request, 'home.html')
+def home(request):
+    return render(request, 'home.html')
 
 
 def contact(request):
